@@ -40,3 +40,11 @@
     - Book = Table  -->  most important component
     - pages = Column
 2. server: collection of many database/schema
+
+
+### SQL Table concepts
+1. Table: Object or Entity or Relation
+2. Column: Attribute Field
+3. Row: Record or Tuple
+4. Cell: Data item or Column value
+5. Primary Key: Key Field  -->  identify each record uniquely
