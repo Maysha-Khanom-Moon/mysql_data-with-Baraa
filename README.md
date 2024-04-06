@@ -10,7 +10,12 @@
     - Distributed Database
     - Cloud Database
 
-4. SQL vs No SQL DB
-    - SQL: only table-structured --> easy to use and widely used
+4. MySQL vs NoSQL DB
+    - MySQL: only table-structured --> easy to use and widely used
+        - relational database system
     - NoSQL: key-value, graph store, column store, document
 
+
+### How SQL works
+- Structured Query Language
+- user --> request(to the DBMS) --> search query(inside the DB) --> response result(to the DBMS) --> user
