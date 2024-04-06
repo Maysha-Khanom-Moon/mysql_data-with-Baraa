@@ -48,3 +48,27 @@
 3. Row: Record or Tuple
 4. Cell: Data item or Column value
 5. Primary Key: Key Field  -->  identify each record uniquely
+
+
+### Main SQL Commands
+1. DDL: Data Definition Language
+    - CREATE  -->  create new table in the database
+    - DROP  -->  delete one object from database
+    - ALTER  -->  edit the column structure of table
+
+2. DQL: Data Query Language
+    - SELECT  -->  retrieve data from database
+
+3. DML: Data Manipulation Language
+    - INSERT  -->  insert new row in the table
+    - DELETE  -->  delete existing row in a table
+    - UPDATE  -->  to update the existing data inside the table
+
+4. DCL: Data Control Language
+    - GRANT  -->  granting a user SELECT and DML permissions on a specific table
+    - REVOKE  --> removes previously granted or denied permissions
+
+5. TCL: Transaction Control Language
+    - COMMIT  -->  to save the changes and makes them permanent.
+    - ROLLBACK  -->  undo those transactions that aren't saved yet in the database
+    - SAVEPOINT  -->  creates points within the groups of transactions in which to ROLLBACK
