@@ -72,3 +72,11 @@
     - COMMIT  -->  to save the changes and makes them permanent.
     - ROLLBACK  -->  undo those transactions that aren't saved yet in the database
     - SAVEPOINT  -->  creates points within the groups of transactions in which to ROLLBACK
+
+
+### SQL Basic Elements
+- -- comment
+- clauses: each of them(section/block) responsible for different works
+- keywords: we don't able to used these as a column name
+- identifiers: variable name, table name, column name, etc
+- operators: do operations  --> arithmetic, comparison
