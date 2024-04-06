@@ -31,3 +31,12 @@
     - Data Analytics
     - Data Engineering
     - Data Mining
+
+
+### Database concepts
+1. how does it works:
+    - Library = Database
+    - Category = Schema
+    - Book = Table  -->  most important component
+    - pages = Column
+2. server: collection of many database/schema
