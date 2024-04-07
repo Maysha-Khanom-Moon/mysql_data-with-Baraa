@@ -80,3 +80,9 @@
 - keywords: we don't able to used these as a column name
 - identifiers: variable name, table name, column name, etc
 - operators: do operations  --> arithmetic, comparison
+
+
+### SQL writing style
+- add newline after each statement or block
+- use Capital letters for keywords
+- use proper whitespaces
