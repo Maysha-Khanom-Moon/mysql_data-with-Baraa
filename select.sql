@@ -1,2 +1,8 @@
--- SELECT * FROM customers;
--- SELECT * FROM orders;
+-- * means all the tables
+-- SELECT *
+-- FROM orders
+
+SELECT 
+	first_name,
+    country
+FROM customers
