@@ -86,3 +86,15 @@
 - add newline after each statement or block
 - use Capital letters for keywords
 - use proper whitespaces
+
+
+### Select Statement
+- order maintain must
+1. SELECT: select our column
+2. FROM: select the table that's we need
+3. JOINS: to connect two tables together
+4. WHERE: to filter our data
+5. GROUP BY: aggregate the data
+6. HAVING: another way to filter our data
+7. ORDER BY: to list our result
+8. LIMIT: just limit our result
