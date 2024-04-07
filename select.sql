@@ -1,8 +1,6 @@
--- * means all the tables
--- SELECT *
--- FROM orders
-
-SELECT 
-	first_name,
-    country
+-- Q. list all countries of all customers without duplicates
+-- using distinct keyword after select, it removes all the duplicates
+SELECT DISTINCT
+	country
 FROM customers
+
