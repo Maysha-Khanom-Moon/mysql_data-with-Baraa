@@ -1,7 +1,7 @@
--- Q. sorting following multiple coulmn
+-- j age ashbe, tar priority beshi
 
 -- sorting
 
 SELECT * 
 FROM customers
-ORDER BY country ASC, score DESC
+ORDER BY score DESC, country ASC
