@@ -4,4 +4,6 @@
 
 SELECT * 
 FROM customers
+-- ORDER BY score
+-- default is ascending
 ORDER BY score ASC

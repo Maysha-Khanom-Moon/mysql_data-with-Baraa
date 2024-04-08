@@ -98,5 +98,8 @@
 6. HAVING: another way to filter our data
 7. ORDER BY: to list our result
 8. LIMIT: just limit our result
-- ##### using distinct keyword after select, it removes all the duplicates from result
-- ##### using asc keyword after order by column name, it sort with ascending order following given column
+- ##### using DISTINCT keyword after SELECT, it removes all the duplicates from result
+
+- ##### ORDER BY
+    - default is ascending order
+    - using ASC keyword after ORDER BY column name, it sort the result at ascending order following given column
