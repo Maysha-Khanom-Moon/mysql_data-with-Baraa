@@ -4,4 +4,4 @@
 
 SELECT * 
 FROM customers
-ORDER BY score DESC, country ASC
+ORDER BY 4 DESC, 5 ASC
