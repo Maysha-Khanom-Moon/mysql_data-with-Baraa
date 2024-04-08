@@ -1,7 +1,7 @@
--- Q. Retrieve all customers where the result is sorted by score (highest first)
+-- Q. sorting following multiple coulmn
 
 -- sorting
 
 SELECT * 
 FROM customers
-ORDER BY score DESC
+ORDER BY country ASC, score DESC
