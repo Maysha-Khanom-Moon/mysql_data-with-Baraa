@@ -1,8 +1,8 @@
--- Find the highest score of all customers
+-- Find the earliest order dates
 
 -- MIN(): minimum value in a column
 -- MAX(): maximum value in a column
 -- NULLs are ignored
 
-SELECT MAX(score) AS max_score
-FROM customers
+SELECT MIN(order_date) AS earliest_order_date
+FROM orders
