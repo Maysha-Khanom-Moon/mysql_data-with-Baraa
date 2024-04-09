@@ -1,7 +1,9 @@
--- List all customer names, where the name is combination of first name and last name
+-- List the first name of all customers in uppercase and last name in lowercase
 
--- CONCAT(): returns a string by two or more stirng values
+-- UPPER(): convert a string to uppercase
+-- LOWER(): convert a string to lowercase
 
 SELECT
-CONCAT(first_name, ' ', last_name) AS full_name
+UPPER(first_name) AS upper_first_name,
+LOWER(last_name) AS lower_last_name
 FROM customers
