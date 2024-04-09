@@ -104,4 +104,19 @@
     - default is ascending order
     - using ASC keyword after ORDER BY column name, it sort the result at ascending order following given column
     - using DESC keyword after ORDER BY column name, it sort the result at descending order following given column
-    - WHERE: filters rows based on specific conditions
+- ##### WHERE: filters rows based on specific conditions
+    - WHERE operations
+        - ###### Comparison Operations
+            - equal: =
+            - not equla: !=, <>
+            - greater than: >
+            - less than: <
+            - greater than or equal to: =>
+            - less than or equal to: <=
+        - ###### Logical Operators
+            - AND: return True if both conditions are true
+            - OR: return True if one of conditions is true
+            - NOT: reverse the result of any boolean operator
+            - IN: retrun True if a value is in a set of values
+            - BETWEEN: return True if a value falls within a specific range
+            - LIKE: return True if a value matches a pattern
