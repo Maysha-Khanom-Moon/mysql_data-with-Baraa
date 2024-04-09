@@ -1,8 +1,8 @@
--- Q. Find all customers whose score is higher than 500
+-- Find all customers whose score is less than 500
 
 -- WHERE
--- filters rows based on specific conditions
+-- Comparison operators: =, !=, <>, >, <, =>, <=
 
 SELECT * 
 FROM customers
-WHERE score > 500
+WHERE score < 500

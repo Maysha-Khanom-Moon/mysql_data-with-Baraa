@@ -106,7 +106,7 @@
     - using DESC keyword after ORDER BY column name, it sort the result at descending order following given column
 - ##### WHERE: filters rows based on specific conditions
     - WHERE operations
-        - ###### Comparison Operations
+        - ###### Comparison Operators
             - equal: =
             - not equla: !=, <>
             - greater than: >
