@@ -1,30 +1,25 @@
--- List customer ID, first name, order ID, quantity.
--- Exclude the customers who have not placed any orders
+-- List first name, last name and country of all persons from customers and employees
 
--- full join: return all recode from both left and right table
--- MySQL does not support full join keyword
--- but full join = left join + right join
+-- UNION ALL: cobines the rows
+-- there is no check for duplicate values
 
+-- UNION: cobines the rows and it removes any duplicate
+-- make sure both table have same number of columns and order of column
 
--- left join
-SELECT 
-c.customer_id,
-c.first_name,
-o.order_id,
-o.quantity
-FROM customers AS c
-LEFT JOIN orders AS o
-ON c.customer_id = o.customer_id
+-- make sure both table have same number of columns and order of columns
+-- because UNION does not check the order of columns. It just combined rows
 
--- +
+SELECT
+	first_name AS per_first_name,
+    last_name AS per_last_name,
+    country AS per_country
+FROM customers
+
+-- UNION ALL
 UNION
 
--- right join
-SELECT 
-c.customer_id,
-c.first_name,
-o.order_id,
-o.quantity
-FROM customers AS c
-RIGHT JOIN orders AS o
-ON c.customer_id = o.customer_id
+SELECT
+	last_name,
+    first_name,
+    emp_country
+FROM employees
