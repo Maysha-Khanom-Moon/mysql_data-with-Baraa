@@ -153,8 +153,8 @@
 - and sql UNION, the records are combined into new rows
 
 - ###### UNION ALL: cobines the rows
-    - make sure both table have same number of columns and order of columns
     - there is no check for duplicate values
 
 - ###### UNION: cobines the rows and it removes any duplicate
-    - make sure both table have same number of columns and order of column
+
+- make sure both table have same number of columns and order of column. because union does not check the orders or numbers of column. it just combines the rows.
