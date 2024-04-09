@@ -170,6 +170,7 @@
 1. COUNT(): returns the number of rows in a result set
     - NULLs are ignored
 2. SUM(): returns the sum of values
+    - NULLs are treated as 0
 3. AVG(): returns the average of values
 4. MAX(): returns the maximum value
 5. MIN(): returns the minimum value

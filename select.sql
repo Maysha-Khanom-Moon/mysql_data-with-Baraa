@@ -1,10 +1,7 @@
--- Find the total number of customers
+-- Find the total quantity of all orders
 
--- COUNT(): total number of rows
--- NULLs are ignored
+-- SUM(): total number of values in a column
+-- NULLs are treated as 0
 
--- AS used for renaming
--- but it didn't change the original table
-
-SELECT COUNT(score) AS total_customers
-FROM customers
+SELECT SUM(quantity) AS total_quantity
+FROM orders
