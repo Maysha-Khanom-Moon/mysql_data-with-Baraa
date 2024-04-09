@@ -102,11 +102,13 @@
 - ##### using DISTINCT keyword after SELECT, it removes all the duplicates from result
 
 
+
 ## Filtering Data
 #### ORDER BY
     - default is ascending order
     - using ASC keyword after ORDER BY column name, it sort the result at ascending order following given column
     - using DESC keyword after ORDER BY column name, it sort the result at descending order following given column
+
 #### WHERE: filters rows based on specific conditions
 - WHERE operations
     - ###### Comparison Operators
@@ -130,6 +132,7 @@
                 
             - underscore _ matches one character
             - find names 'containing' the r at 3rd position: __r%
+
 
 
 ## Joining Data
@@ -175,3 +178,6 @@
     - only numeric values column
 4. MAX(): returns the maximum value
 5. MIN(): returns the minimum value
+
+
+#### SQL String Functions
