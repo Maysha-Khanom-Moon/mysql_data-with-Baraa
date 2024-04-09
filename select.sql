@@ -1,9 +1,8 @@
--- Find all non-german customers
+-- Find all customers who come from Germany and whose score less than 400
 
 -- WHERE
--- Comparison operators: =, !=, <>, >, <, =>, <=
+-- Logical operators: AND, OR, NOT
 
 SELECT * 
 FROM customers
--- WHERE country != 'Germany'
-WHERE country <> 'Germany'
+WHERE country = 'Germany' AND score < 400
