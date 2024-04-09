@@ -140,7 +140,7 @@
     - FULL Join  -->  return all the column from both left and right table
         - avoid using full join. it is harmful and causes performance problem for bit tables
         - full join is not supported in MySQL
-        - but there is a way to do full join: left join + right join
+        - but there is a way to do full join: left join UNION right join
 - ##### AS: SQL Aliases
     - specifies a short name for a table or a column
         - SELECT c.customer_id
