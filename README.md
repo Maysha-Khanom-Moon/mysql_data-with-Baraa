@@ -167,13 +167,11 @@
 
 ## SQL Functions
 #### SQL Aggregate Functions
+- NULLs are ignored for all.
 1. COUNT(): returns the number of rows in a result set
-    - NULLs are ignored
 2. SUM(): returns the sum of values
-    - works only with numeric columns
-    - NULLs are treated as 0  --->  means ignored
+    - only numeric values
 3. AVG(): returns the average of values
-    - works only with numeric columns
-    - NULLs are ignored
+    - only numeric values column
 4. MAX(): returns the maximum value
 5. MIN(): returns the minimum value

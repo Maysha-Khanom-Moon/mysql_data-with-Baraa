@@ -1,8 +1,8 @@
--- Find the average score of all customers
+-- Find the highest score of all customers
 
--- AVG(): average of values in a column
--- works only with numeric columns
+-- MIN(): minimum value in a column
+-- MAX(): maximum value in a column
 -- NULLs are ignored
 
-SELECT AVG(score) AS avg_score
+SELECT MAX(score) AS max_score
 FROM customers
