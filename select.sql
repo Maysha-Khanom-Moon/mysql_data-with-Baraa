@@ -1,8 +1,9 @@
--- Find all customers whoes score is NOT less than 400
+-- Find all customers whoes score falls in the range between 100 and 500
 
 -- WHERE
--- Logical operators: AND, OR, NOT
+-- Logical operators: BETWEEN
+-- return True if a value falls within a specific range
 
 SELECT * 
 FROM customers
-WHERE NOT score < 400
+WHERE score BETWEEN 100 AND 500
