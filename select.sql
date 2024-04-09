@@ -1,7 +1,8 @@
--- j age ashbe, tar priority beshi
+-- Q. List only german customers
 
--- sorting
+-- WHERE
+-- filters rows based on specific conditions
 
 SELECT * 
 FROM customers
-ORDER BY 4 DESC, 5 ASC
+WHERE country = 'Germany'
