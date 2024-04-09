@@ -14,9 +14,9 @@ CREATE TABLE first_db.customers (
     PRIMARY KEY (customer_id));
 
 -- Insert customers data
-INSERT INTO first_db.customers VALUE (1, 'Maria', 'Cramer ', 'Germany', 350);
+INSERT INTO first_db.customers VALUE (1, ' Maria', 'Cramer ', 'Germany', 350);
 INSERT INTO first_db.customers VALUE (2, 'John', 'Steel', 'USA', 900);
-INSERT INTO first_db.customers VALUE (3, 'Georg', 'Pipps', 'UK', 750);
+INSERT INTO first_db.customers VALUE (3, 'Georg', ' Pipps ', 'UK', 750);
 INSERT INTO first_db.customers VALUE (4, 'Martin', 'Muller', 'Germany', 500);
 INSERT INTO first_db.customers VALUE (5, 'Peter', 'Franken', 'USA', NULL);
 

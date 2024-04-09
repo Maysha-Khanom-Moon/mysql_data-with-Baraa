@@ -186,5 +186,7 @@
 2. LOWER(): convert a string to lowercase
 3. UPPER(): convert a string to uppercase
 4. TRIM(): romove leading and trailling spaces from a string
+    - LTRIM(): removes leading(left) spaces
+    - RTRIM(): removes trailling(right) spaces
 5. LENGTH(): return the length of a string
 6. SUBSTARING(): return a substring from string
