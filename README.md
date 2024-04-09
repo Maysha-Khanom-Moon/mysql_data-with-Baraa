@@ -168,6 +168,7 @@
 ## SQL Functions
 #### SQL Aggregate Functions
 1. COUNT(): returns the number of rows in a result set
+    - NULLs are ignored
 2. SUM(): returns the sum of values
 3. AVG(): returns the average of values
 4. MAX(): returns the maximum value
