@@ -22,4 +22,5 @@ SELECT
 	last_name,
     first_name,
     emp_country
+    -- salary
 FROM employees
