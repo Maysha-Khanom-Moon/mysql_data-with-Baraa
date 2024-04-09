@@ -1,9 +1,7 @@
--- List the first name of all customers in uppercase and last name in lowercase
+-- List the first name of all customers and remove all the white spaces in the names
 
--- UPPER(): convert a string to uppercase
--- LOWER(): convert a string to lowercase
+-- TRIM(): LTRIM() + RTRIM()
 
 SELECT
-UPPER(first_name) AS upper_first_name,
-LOWER(last_name) AS lower_last_name
+TRIM(last_name) AS clean_last_name
 FROM customers
