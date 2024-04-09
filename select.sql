@@ -1,4 +1,4 @@
--- Find all customers whoes first name starts with M
+-- Find all customers whoes first name contains r
 
 -- WHERE
 -- Logical operators: IN
@@ -6,4 +6,4 @@
 
 SELECT * 
 FROM customers
-WHERE first_name LIKE 'M%'
+WHERE first_name LIKE '%r%'
