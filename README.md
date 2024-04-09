@@ -105,9 +105,9 @@
 
 ## Filtering Data
 #### ORDER BY
-    - default is ascending order
-    - using ASC keyword after ORDER BY column name, it sort the result at ascending order following given column
-    - using DESC keyword after ORDER BY column name, it sort the result at descending order following given column
+- default is ascending order
+- using ASC keyword after ORDER BY column name, it sort the result at ascending order following given column
+- using DESC keyword after ORDER BY column name, it sort the result at descending order following given column
 
 #### WHERE: filters rows based on specific conditions
 - WHERE operations
