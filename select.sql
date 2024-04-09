@@ -1,10 +1,9 @@
--- Find all customers whoes score falls in the range between 100 and 500
+-- Find all customers whoes ID is equal to 1, 2, or 5
 
 -- WHERE
--- Logical operators: BETWEEN
--- return True if a value falls within a specific range
+-- Logical operators: IN
+-- it used for checklist
 
 SELECT * 
 FROM customers
--- WHERE score >= 100 AND score <= 500
-WHERE score BETWEEN 100 AND 500
+WHERE customer_id IN (1, 2, 5)
