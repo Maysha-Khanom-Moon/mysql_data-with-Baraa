@@ -1,8 +1,8 @@
--- Find the earliest order dates
+-- Find the latest order dates
 
 -- MIN(): minimum value in a column
 -- MAX(): maximum value in a column
 -- NULLs are ignored
 
-SELECT MIN(order_date) AS earliest_order_date
+SELECT MAX(order_date) AS latest_order_date
 FROM orders
