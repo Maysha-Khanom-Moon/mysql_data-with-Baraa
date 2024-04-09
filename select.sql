@@ -1,9 +1,9 @@
--- Find all customers whoes ID is equal to 1, 2, or 5
+-- Find all customers whoes first name starts with M
 
 -- WHERE
 -- Logical operators: IN
--- it used for checklist
+-- % for anything
 
 SELECT * 
 FROM customers
-WHERE customer_id IN (1, 2, 5)
+WHERE first_name LIKE 'M%'
