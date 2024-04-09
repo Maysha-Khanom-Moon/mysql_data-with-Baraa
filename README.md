@@ -157,4 +157,5 @@
 
 - ###### UNION: cobines the rows and it removes any duplicate
 
-- make sure both table have same number of columns and order of column. because union does not check the orders or numbers of column. it just combines the rows.
+- make sure both table have same number of columns. otherwise it seems an error
+- follow same order of columns. because union does not check the order of columns. it just combines the rows.
