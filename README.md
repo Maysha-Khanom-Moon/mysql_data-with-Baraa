@@ -181,6 +181,7 @@
 
 
 #### SQL String Functions
+- All functions in the SELECT will not change the data in the database
 1. CONCAT(): returns a string by concatenating two or more string values
 2. LOWER(): convert a string to lowercase
 3. UPPER(): convert a string to uppercase
