@@ -111,7 +111,7 @@
             - not equla: !=, <>
             - greater than: >
             - less than: <
-            - greater than or equal to: =>
+            - greater than or equal to: >=
             - less than or equal to: <=
         - ###### Logical Operators
             - AND: return True if both conditions are true
