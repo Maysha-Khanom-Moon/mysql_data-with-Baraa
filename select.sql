@@ -2,7 +2,7 @@
 
 -- WHERE
 -- Logical operators: IN
--- % for anything
+-- _ for one character
 
 SELECT * 
 FROM customers
