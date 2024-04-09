@@ -138,6 +138,7 @@
     - LEFT Join  -->  return all rows from left table and only matches rows from right table
     - Right Join  -->  return only matches rows from left table and all row from right table
     - FULL Join  -->  return all the column from both left and right table
+        - but full join is not supported in MySQL
 - ##### AS: SQL Aliases
     - specifies a short name for a table or a column
         - SELECT c.customer_id
