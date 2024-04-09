@@ -145,3 +145,15 @@
     - specifies a short name for a table or a column
         - SELECT c.customer_id
         - FROM customers AS c
+
+
+#### UNION: combines the rows from both table
+- while sql JOIN, the records are combined into new columns.
+- and sql UNION, the records are combined into new rows
+
+- ###### UNION ALL: cobines the rows
+    - make sure both table have same number of columns and order of columns
+    - there is no check for duplicate values
+
+- ###### UNION: cobines the rows and it removes any duplicate
+    - make sure both table have same number of columns and order of column
