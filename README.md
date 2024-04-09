@@ -121,7 +121,9 @@
             - BETWEEN: return True if a value falls within a specific range
             - LIKE: return True if a value matches a pattern
                 - percent % matches anything
+                - find names 'begins' with M: M%
+                - find names 'ends' with n: %n
+                - find names 'containing' the r: %r%
+    
                 - underscore _ matches one character
-                - M% means: find names 'begins' with M
-                - %n means: find names 'ends' with n
-                - %r% means: find name 'containing' the r
+                - find names 'containing' the r at 3rd position: __r%
