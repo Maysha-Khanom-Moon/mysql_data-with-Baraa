@@ -130,6 +130,7 @@
 
 
 #### JOINS: to connect 2 tables together
+- combined into new columns
 - Left Table -------- Right Table
 1. Join Key:
     - common column
