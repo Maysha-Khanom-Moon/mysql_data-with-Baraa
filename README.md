@@ -122,3 +122,6 @@
             - LIKE: return True if a value matches a pattern
                 - percent % matches anything
                 - underscore _ matches one character
+                - M% means: find names 'begins' with M
+                - %n means: find names 'ends' with n
+                - %r% means: find name 'containing' the r
