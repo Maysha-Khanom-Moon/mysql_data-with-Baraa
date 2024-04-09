@@ -120,3 +120,5 @@
             - IN: retrun True if a value is in a set of values
             - BETWEEN: return True if a value falls within a specific range
             - LIKE: return True if a value matches a pattern
+                - percent % matches anything
+                - underscore _ matches one character
