@@ -88,6 +88,7 @@
 - use proper whitespaces
 
 
+## Querying Data
 ### Select Statement
 - order maintain must
 1. SELECT: select our column
@@ -100,6 +101,8 @@
 8. LIMIT: just limit our result
 - ##### using DISTINCT keyword after SELECT, it removes all the duplicates from result
 
+
+## Filtering Data
 #### ORDER BY
     - default is ascending order
     - using ASC keyword after ORDER BY column name, it sort the result at ascending order following given column
@@ -129,6 +132,7 @@
             - find names 'containing' the r at 3rd position: __r%
 
 
+## Joining Data
 #### JOINS: to connect 2 tables together
 - combined into new columns
 - Left Table -------- Right Table
@@ -159,3 +163,12 @@
 
 - make sure both table have same number of columns. otherwise it seems an error
 - follow same order of columns. because union does not check the order of columns. it just combines the rows.
+
+
+## SQL Functions
+#### SQL Aggregate Functions
+1. COUNT(): returns the number of rows in a result set
+2. SUM(): returns the sum of values
+3. AVG(): returns the average of values
+4. MAX(): returns the maximum value
+5. MIN(): returns the minimum value
