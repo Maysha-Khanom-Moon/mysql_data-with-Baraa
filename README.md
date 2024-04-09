@@ -182,6 +182,7 @@
 
 #### SQL String Functions
 - All functions in the SELECT will not change the data in the database
+- All function pass the column
 1. CONCAT(): returns a string by concatenating two or more string values
 2. LOWER(): convert a string to lowercase
 3. UPPER(): convert a string to uppercase
@@ -190,3 +191,5 @@
     - RTRIM(): removes trailling(right) spaces
 5. LENGTH(): return the length of a string
 6. SUBSTARING(): return a substring from string
+    - SUBSTRING(column, Start, Length)
+    - followed 1-indexing

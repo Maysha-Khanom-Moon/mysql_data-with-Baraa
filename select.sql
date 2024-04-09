@@ -1,10 +1,9 @@
--- Find the length of the last name of all customers
+-- Subtract 3 characters from the last name of all customers, starting from the 2nd position
 
--- LENGTH(): length of string
+-- SUBSTRING(Column, Start, Length)
+-- followed 1-indexing
 
 SELECT
 last_name,
-TRIM(last_name) AS clean_last_name,
-LENGTH(last_name) AS len_last_name,
-LENGTH(TRIM(last_name)) AS clean_len_last_name
+SUBSTRING(last_name, 2, 3) AS sub_last_name
 FROM customers
