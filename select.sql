@@ -1,8 +1,7 @@
--- Find the latest order dates
+-- List all customer names, where the name is combination of first name and last name
 
--- MIN(): minimum value in a column
--- MAX(): maximum value in a column
--- NULLs are ignored
+-- CONCAT(): returns a string by two or more stirng values
 
-SELECT MAX(order_date) AS latest_order_date
-FROM orders
+SELECT
+CONCAT(first_name, ' ', last_name) AS full_name
+FROM customers
