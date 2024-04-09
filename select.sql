@@ -6,4 +6,5 @@
 
 SELECT * 
 FROM customers
+-- WHERE score >= 100 AND score <= 500
 WHERE score BETWEEN 100 AND 500
