@@ -1,9 +1,5 @@
--- Find all customers whoes first name contains r in 3rd position
+-- SQL Aliases -- AS
 
--- WHERE
--- Logical operators: IN
--- _ for one character
-
-SELECT * 
-FROM customers
-WHERE first_name LIKE '__r%'
+SELECT 
+	c.customer_id
+FROM customers AS c
