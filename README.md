@@ -100,30 +100,41 @@
 8. LIMIT: just limit our result
 - ##### using DISTINCT keyword after SELECT, it removes all the duplicates from result
 
-- ##### ORDER BY
+#### ORDER BY
     - default is ascending order
     - using ASC keyword after ORDER BY column name, it sort the result at ascending order following given column
     - using DESC keyword after ORDER BY column name, it sort the result at descending order following given column
-- ##### WHERE: filters rows based on specific conditions
-    - WHERE operations
-        - ###### Comparison Operators
-            - equal: =
-            - not equla: !=, <>
-            - greater than: >
-            - less than: <
-            - greater than or equal to: >=
-            - less than or equal to: <=
-        - ###### Logical Operators
-            - AND: return True if both conditions are true
-            - OR: return True if one of conditions is true
-            - NOT: reverse the result of any boolean operator
-            - IN: retrun True if a value is in a set of values
-            - BETWEEN: return True if a value falls within a specific range
-            - LIKE: return True if a value matches a pattern
-                - percent % matches anything
-                - find names 'begins' with M: M%
-                - find names 'ends' with n: %n
-                - find names 'containing' the r: %r%
-    
-                - underscore _ matches one character
-                - find names 'containing' the r at 3rd position: __r%
+#### WHERE: filters rows based on specific conditions
+- WHERE operations
+    - ###### Comparison Operators
+        - equal: =
+        - not equla: !=, <>
+        - greater than: >
+        - less than: <
+        - greater than or equal to: >=
+        - less than or equal to: <=
+    - ###### Logical Operators
+        - AND: return True if both conditions are true
+        - OR: return True if one of conditions is true
+        - NOT: reverse the result of any boolean operator
+        - IN: retrun True if a value is in a set of values
+        - BETWEEN: return True if a value falls within a specific range
+        - LIKE: return True if a value matches a pattern
+            - percent % matches anything
+            - find names 'begins' with M: M%
+            - find names 'ends' with n: %n
+            - find names 'containing' the r: %r%
+                
+            - underscore _ matches one character
+            - find names 'containing' the r at 3rd position: __r%
+
+
+#### JOINS: to connect 2 tables together
+- Left Table -------- Right Table
+1. Join Key:
+    - common column
+2. Join Type:
+    - INNER Join  -->  only matches rows
+    - LEFT Join  -->  return all rows from left table and only matches rows from right table
+    - Right Join  -->  return only matches rows from left table and all row from right table
+    - FULL Join  -->  return all the column from both left and right table
