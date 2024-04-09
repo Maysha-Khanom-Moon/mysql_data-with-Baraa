@@ -1,7 +1,8 @@
--- Find the total quantity of all orders
+-- Find the average score of all customers
 
--- SUM(): total number of values in a column
--- NULLs are treated as 0
+-- AVG(): average of values in a column
+-- works only with numeric columns
+-- NULLs are ignored
 
-SELECT SUM(quantity) AS total_quantity
-FROM orders
+SELECT AVG(score) AS avg_score
+FROM customers
