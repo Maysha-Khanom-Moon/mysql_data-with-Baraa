@@ -190,6 +190,31 @@
     - LTRIM(): removes leading(left) spaces
     - RTRIM(): removes trailling(right) spaces
 5. LENGTH(): return the length of a string
-6. SUBSTARING(): return a substring from string
+6. SUBSTRING(): return a substring from string
     - SUBSTRING(column, Start, Length)
     - followed 1-indexing
+
+
+## SQL Advanced Topics
+#### GROUP BY: group rows based on column values
+
+
+## Query Clauses
+SELECT DISTINCT
+    country,
+    COUNT(c.customer_id) AS total_customers
+
+FROM customers c
+
+INNER JOIN orders o
+ON o.cutomer_id = c.cutomer_id
+
+WHERE country = 'germany'
+
+GROUP BY c.country
+
+HAVING COUNT(c.customer_id) > 1
+
+ORDER BY c.country
+
+LIMIT 2

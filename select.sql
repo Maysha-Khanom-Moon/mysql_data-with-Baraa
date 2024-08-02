@@ -1,9 +1,7 @@
--- Subtract 3 characters from the last name of all customers, starting from the 2nd position
+-- Find the total number of customers for each country
 
--- SUBSTRING(Column, Start, Length)
--- followed 1-indexing
-
-SELECT
-last_name,
-SUBSTRING(last_name, 2, 3) AS sub_last_name
+SELECT 
+	country,
+    COUNT(*) as total_customers,
 FROM customers
+GROUP BY country 
