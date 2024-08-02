@@ -197,6 +197,12 @@
 
 ## SQL Advanced Topics
 #### GROUP BY: group rows based on column values
+- enables you to use aggregate functions on group of data returned from a query
+- COUNT(*): inlcuding duplicates and NULL values
+- COUNT(): return the total number of rows in a table, regardless of NULL values
+
+#### HAVING
+- filters the results of a GROUP BY query based on the result of an aggregate function
 
 
 ## Query Clauses
@@ -204,7 +210,7 @@ SELECT DISTINCT
     country,
     COUNT(c.customer_id) AS total_customers
 
-FROM customers c
+FROM customers AS c
 
 INNER JOIN orders o
 ON o.cutomer_id = c.cutomer_id
