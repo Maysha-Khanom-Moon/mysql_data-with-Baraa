@@ -230,7 +230,13 @@
 - best practice:
     - use DEFAULT(auto generation for primary key)
     - choose list columns method, so you're independent of table changes(new column or column order etc). And other columns get default value as well
+
 #### UPDATE
+- modify the values of an existing rows in a table
+- use primary key to filter
+- caution:
+    - UPDATE without WHERE changes the values of ALL rows
+
 #### DELETE & TRUNCATE
 
 

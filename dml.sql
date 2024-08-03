@@ -1,3 +1,4 @@
+-- # INSERT
 -- DESCRIBE customers
 
 -- Insert new customer Anna Nixon from UK
@@ -9,5 +10,18 @@ VALUES(DEFAULT, 'Anna', 'Nixon', 'UK', NULL);
 -- Insert new customer Max Lang
 INSERT INTO customers
 (first_name, last_name)
-VALUES('Max', 'Lang')
+VALUES('Max', 'Lang');
 -- list your columns so you're independent of table changes(new column or column order etc)
+
+
+-- # UPDATE
+-- update the Max Lang country name to 'Germany'
+UPDATE customers 
+SET country = 'Germany'
+WHERE customer_id = 7;
+-- UPDATE without WHERE changes the values of ALL rows
+
+-- Changes the score of the customer Anna to 100 and change her country from UK to USA
+UPDATE customers
+SET country = 'USA', score = 100
+WHERE customer_id = 6;
