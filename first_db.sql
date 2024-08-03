@@ -6,7 +6,7 @@ USE first_db;
 -- create table customers
 DROP TABLE IF EXISTS first_db.customers;
 CREATE TABLE first_db.customers (
-	customer_id INT(10) NOT NULL,
+	customer_id INT(10) NOT NULL AUTO_INCREMENT,
     first_name  VARCHAR(50) NULL,
 	last_name   VARCHAR(50) NULL,
     country     VARCHAR(50) NULL,

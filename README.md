@@ -88,7 +88,7 @@
 - use proper whitespaces
 
 
-## Querying Data
+##  3️⃣Querying Data
 ### Select Statement
 - order maintain must
 1. SELECT: select our column
@@ -103,7 +103,7 @@
 
 
 
-## Filtering Data
+## 4️⃣Filtering Data 
 #### ORDER BY
 - default is ascending order
 - using ASC keyword after ORDER BY column name, it sort the result at ascending order following given column
@@ -135,7 +135,7 @@
 
 
 
-## Joining Data
+## 5️⃣Joining Data
 #### JOINS: to connect 2 tables together
 - combined into new columns
 - Left Table -------- Right Table
@@ -168,7 +168,8 @@
 - follow same order of columns. because union does not check the order of columns. it just combines the rows.
 
 
-## SQL Functions
+
+## 6️⃣SQL Functions
 #### SQL Aggregate Functions
 - NULLs are ignored for all.
 1. COUNT(): returns the number of rows in a result set
@@ -196,7 +197,7 @@
 
 
 
-## SQL Advanced Topics
+## 7️⃣SQL Advanced Topics
 #### GROUP BY: group rows based on column values
 - enables you to use aggregate functions on group of data returned from a query
 - COUNT(*): inlcuding duplicates and NULL values
@@ -220,8 +221,21 @@
 
 
 
+## 8️⃣Modifying Data
+#### INSERT
+- insert new rows into database
+- ##### DESCRIBE
+    - to obtain information about table and column structure
+    - before insert new rows into database we have to know the structure of the table
+- best practice:
+    - use DEFAULT(auto generation for primary key)
+    - choose list columns method, so you're independent of table changes(new column or column order etc). And other columns get default value as well
+#### UPDATE
+#### DELETE & TRUNCATE
 
-## Query Clauses
+
+
+## 🌟Query Clauses
 SELECT DISTINCT
     country,
     COUNT(c.customer_id) AS total_customers
