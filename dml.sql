@@ -33,5 +33,9 @@ WHERE customer_id = 6;
 -- DELETE without WHERE deletes ALL rows from a table
 
 -- Delete both new customers Anna and Max from our database
-DELETE FROM customers
-WHERE customer_id IN (6, 7)
+-- DELETE FROM customers
+-- WHERE customer_id IN (6, 7)
+
+-- # TRUNCATE
+-- use TRUNCATE instead of DELETE if you want to delete all rows from a table
+TRUNCATE customers

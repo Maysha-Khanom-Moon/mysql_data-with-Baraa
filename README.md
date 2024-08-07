@@ -243,6 +243,11 @@
 - caution:
     - DELETE without WHERE deletes ALL rows from a table
 
+- TRUNCATE: make a table empty
+    - it's fast than DELETE
+- best practice:
+    - use TRUNCATE instead of DELETE if you want to delete all rows from a table
+
 
 
 
