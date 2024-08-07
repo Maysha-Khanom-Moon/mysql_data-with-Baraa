@@ -216,8 +216,9 @@
     - used to filter data for a specified set of values. And this set define by another query.
     - IN operator is a shorthand for multiple OR conditions
 - ##### EXISTS
-    - get better performance than IN
+    - get better performance than IN (when results are large)
     - used to check whether the result of a correlated nested query is empty or not
+    - execute outer query only if we have some values for inner query
 
 
 
@@ -238,6 +239,10 @@
     - UPDATE without WHERE changes the values of ALL rows
 
 #### DELETE & TRUNCATE
+-  DELETE: delete rows from tables
+- caution:
+    - DELETE without WHERE deletes ALL rows from a table
+
 
 
 

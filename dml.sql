@@ -25,3 +25,13 @@ WHERE customer_id = 7;
 UPDATE customers
 SET country = 'USA', score = 100
 WHERE customer_id = 6;
+
+
+
+-- # DELETE
+-- DELETE FROM customers
+-- DELETE without WHERE deletes ALL rows from a table
+
+-- Delete both new customers Anna and Max from our database
+DELETE FROM customers
+WHERE customer_id IN (6, 7)
