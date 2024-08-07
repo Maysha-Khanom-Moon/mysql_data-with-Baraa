@@ -272,7 +272,7 @@ change and structure our database and tables
 - ALTER: change the structure of table or database
     - [link](https://www.geeksforgeeks.org/sql-alter-add-drop-modify/)
 
-- DROP: delete the table
+- DROP: delete the table or column or database
 
 
 
