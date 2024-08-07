@@ -37,5 +37,6 @@ WHERE customer_id = 6;
 -- WHERE customer_id IN (6, 7)
 
 -- # TRUNCATE
+-- delete each row
 -- use TRUNCATE instead of DELETE if you want to delete all rows from a table
-TRUNCATE customers
+-- TRUNCATE customers

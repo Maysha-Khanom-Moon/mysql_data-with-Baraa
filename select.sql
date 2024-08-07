@@ -58,4 +58,5 @@
 --     AND score > 500
 -- )
 
-select * from customers
+-- select * from customers; 
+DESCRIBE persons

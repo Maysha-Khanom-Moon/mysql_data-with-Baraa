@@ -250,6 +250,30 @@
 
 
 
+## 9️⃣Defining Data
+change and structure our database and tables
+- CREATE: create the table
+    - CREATE TABLE database.table(...)
+    - 3 information need:
+        - 1. column name
+            - could be anything
+        - 2. data type:
+            - INT
+            - VARCHAR
+            - DATE
+            - CHAR
+            - ...
+        - 3. constraints:
+            - PRIMARY KEY --> NOT NULL + UNIQUE
+            - NOT NULL
+            - UNIQUE
+            - DEFAULT
+            - ...
+- ALTER: change the structure of one table
+- DROP: delete the table
+
+
+
 
 ## 🌟Query Clauses
 SELECT DISTINCT
