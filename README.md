@@ -269,7 +269,9 @@ change and structure our database and tables
             - UNIQUE
             - DEFAULT
             - ...
-- ALTER: change the structure of one table
+- ALTER: change the structure of table or database
+    - [link](https://www.geeksforgeeks.org/sql-alter-add-drop-modify/)
+
 - DROP: delete the table
 
 

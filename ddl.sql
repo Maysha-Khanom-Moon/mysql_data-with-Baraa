@@ -1,3 +1,4 @@
+-- # CREATE
 -- create new sql table call persons with 4 columns:
 -- ID, person name, birth date, and phone
 CREATE TABLE first_db.persons(
@@ -6,3 +7,10 @@ CREATE TABLE first_db.persons(
     birth_date DATE NULL,
     phone VARCHAR(15) NOT NULL UNIQUE
 )
+
+
+-- # ALTER
+-- change the structure of the table
+-- add new column called email to table persons
+ALTER TABLE persons
+ADD email VARCHAR(15) NOT NULL
